@@ -1,0 +1,180 @@
+a.logo {
+    text-decoration: none;
+}
+
+h1.logo {
+    margin: 0;
+    padding: 2px 20px;
+    color: #38CC28;
+}
+
+span.small {
+    color: #16B705;
+    margin: 0 10px 0 0;
+}
+
+.btn-to-top {
+    margin: 20px 0;
+}
+
+.confirm-btn-box {
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 768px) {
+    h1.logo {
+        padding: 8px 20px;
+    }
+
+    .scrolled h1.logo {
+        padding: 2px 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .style-media .media-object {
+        width: 100%;
+        height: 120px;
+        position: relative;
+    }
+
+    .style-single .entry-thumbnail {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .col-md-4.colheight-lg-2.style-grid .entry-thumbnail img {
+        width: initial;
+        max-width: initial;
+        height: 100%;
+        max-height: 100%;
+    }
+
+}
+
+.media > a > .pull-left {
+    padding-right: 10px;
+}
+
+.media > a > .media-object-wrapper > .pull-left {
+    padding-right: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.media > a > .media-object-wrapper {
+    float: left;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+}
+
+.style-media > a > .pull-left {
+    padding-right: 20px;
+}
+
+.style-review-title {
+    background-color: #38CC28;
+    color: #ffffff;
+}
+
+.style-review-title {
+    font-family: "M+ Type-1 (general-j) Regular", 'Lato', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    z-index: 2;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#coverageCarousel .carousel-control {
+    top: -38px;
+}
+
+.display-inherit {
+    display: inherit;
+}
+
+.no-decoration,
+.no-decoration:hover,
+.no-decoration *,
+.no-decoration *:hover {
+    text-decoration: none!important;
+}
+
+.no-result {
+    margin-bottom: 20px;
+}
+
+.no-result span {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.style-hero {
+    overflow: hidden;
+}
+
+.tagcloud.tagcloud-force-inline {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.tagcloud.tagcloud-force-inline a {
+    display: inline;
+}
+
+.tagcloud.tagcloud-detail {
+    margin-bottom: 20px;
+}
+
+.error-message {
+    padding: 5px 10px;
+    margin: 0!important;
+    color: red;
+}
+
+.page-title.full-page-title.full-page-title-login {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+th.primary {
+    width: 100px;
+}
+
+th.actions {
+    width: 100px;
+}
+
+.alert {
+    padding: 5px 15px;
+}
+
+.form-control {
+    color: #ddd!important;
+}
+
+.page-title.full-page-title.top-title {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.entry-content.indented .lead {
+    font-size: 16px;
+}
