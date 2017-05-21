@@ -5,6 +5,10 @@ import {Injectable} from "@angular/core";
 import {RequestOptions, URLSearchParams, Jsonp, Response, RequestOptionsArgs} from "@angular/http";
 import {Observable} from  "rxjs/Observable";
 import "rxjs/add/operator/map";
+// import { AuthTokenStorage } from '../storage/auth-token.storage';
+import { BuildQueryUtil } from './util/build-query.util';
+import { Http, Headers } from '@angular/http';
+import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class HttpService {
@@ -13,26 +17,39 @@ export class HttpService {
     //Web API URL
     // WEB_API_URL: string = "https://connpass.com/api/v1/event/";
     //
-    WEB_API_URL:string = "http://ec2-52-88-160-219.us-west-2.compute.amazonaws.com/eventSearch/src/php/api.php";
+    WEB_API_URL:string = "/snsAnalysis/public/events";
     CALLBACK = "JSONP_CALLBACK";
 
-    constructor(private jsonp:Jsonp) {
+    constructor(
+        private jsonp:Jsonp,
+        private http: Http,
+        // protected tokenStorage: AuthTokenStorage,
+        private buildQuery: BuildQueryUtil
+    ) {
     }
 
     // APIからイベント情報取得
-    getEventData(model,page):Observable<any> {
+    getEventData(model,page){
 
         //接続設定
-        let option = this.setParam(model,page);
+        let param = this.setParam(model,page);
 
-        //データ取得
-        return this.reqData(option);
+
+        let data = this.requestGet(
+            this.WEB_API_URL,
+            {
+                page: page,
+                place: param.get("place"),
+                ymd: param.get("ymd"),
+                keyword: param.get("keyword"),
+                start: param.get("start")
+            });
+
+        return data;
     }
 
     //通信設定値作成
-    setParam(model,page):RequestOptions {
-
-        console.log(model);
+    setParam(model,page) {
 
         //Urlパラメータオブジェクト作成
         let param = new URLSearchParams();
@@ -59,26 +76,46 @@ export class HttpService {
             search: param,
 
         };
-        return new RequestOptions(options);
+        return param;
     }
 
-    //HTTPリクエストとレスポンス処理
-    reqData(config:RequestOptions):Observable<any> {
-        return this.jsonp.request(config.url, config)
-            .map((response) => {
+    protected requestPost(url, data, params?)
+    {
+        params = params || {};
+        // params.token = this.tokenStorage.getToken();
 
-                    let eventData;
-                    let obj = response.json();
+        let headers = new Headers();
+        headers.append('Content-Type', 'application/json');
 
-                    //Web APIリクエスト成功
-                    let dataObj = obj;
-                    eventData = {
-                        data: dataObj,
-                    };
-                    // }
-                    return eventData;
-                }
-            );
-    };
+        //noinspection TypeScriptUnresolvedFunction
+        return this.http
+            .post(this.buildQuery.convert(url, params), JSON.stringify(data), {headers: headers})
+            .toPromise()
+            .then(response => response.json())
+            .catch(this.handleError);
+    }
+
+    protected requestGet(url, params?)
+    {
+        params = params || {};
+        // params.token = this.tokenStorage.getToken();
+
+        //noinspection TypeScriptUnresolvedFunction
+        return this.http
+            .get(this.buildQuery.convert(url, params))
+            .toPromise()
+            .then(response => response.json())
+            .catch(this.handleError);
+    }
+
+    private handleError(error: any)
+    {
+        let response = error.json();
+        if (response.error) {
+            alert(response.error);
+        }
+
+        return Promise.reject(error.message || error);
+    }
 }
 

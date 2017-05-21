@@ -49,6 +49,7 @@ export class AppComponent implements OnInit {
 
     results_start;
 
+    public error: any;
 
     // デフォルト値
     places = [
@@ -83,7 +84,7 @@ export class AppComponent implements OnInit {
      * @param httpService
      * @param viewContainerRef
      */
-    public constructor(private httpService:HttpService, viewContainerRef:ViewContainerRef) {
+    public constructor(private httpService: HttpService, viewContainerRef: ViewContainerRef) {
         this.viewContainerRef = viewContainerRef;
     }
 
@@ -123,14 +124,23 @@ export class AppComponent implements OnInit {
 
         this.model.spinner = true;
 
-        this.httpService.getEventData(model, page).subscribe((result) => {
-                this.setEvent(result);
+        // this.httpService.getEventData(model, page).subscribe((result) => {
+        //         this.setEvent(result);
+        //         model.requestCount++;
+        //     },
+        //     (err)=>alert("通信エラー\n" + err),
+        //     ()=> {
+        //         this.model.spinner = false;
+        //     });
+
+        this.httpService.getEventData(model, page)
+            .then(response => {
+                this.setEvent(response);
                 model.requestCount++;
-            },
-            (err)=>alert("通信エラー\n" + err),
-            ()=> {
                 this.model.spinner = false;
-            });
+            })
+            .catch(error => this.error = error);
+
     }
 
     /**
@@ -141,14 +151,16 @@ export class AppComponent implements OnInit {
      */
     private setEvent(result) {
 
+        console.log(result);
+
         //Web APIデータ取得エラー発生時
         if (result.error) {
             alert("Web APIエラー\n" + result.message);
             return;
         }
-        this.events = result.data.events;
-        this.results_returned = result.data.results_returned;
-        this.results_start = result.data.results_start;
+        this.events = result.events;
+        this.results_returned = result.results_returned;
+        this.results_start = result.results_start;
 
         if (this.results_returned != 0) {
             this.existsFlg = true;
@@ -215,9 +227,9 @@ export class AppComponent implements OnInit {
         this.isMobile = (innerWidth < this.MOBILE_SCREEN_WIDTH);
     }
 
-    public itemsPerPage:number = 3;
-    public currentPage:number = 1;
-    private _maxPage:number;
+    public itemsPerPage: number = 3;
+    public currentPage: number = 1;
+    private _maxPage: number;
 
     range() {
         if (this.events == null) {

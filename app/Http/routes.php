@@ -29,6 +29,10 @@ Route::get('contact', 'PagesController@contact');
 
 
 Route::resource('articles', 'ArticlesController');
+
+Route::resource('events', 'EventsController');
+
+
 //Route::auth();
 
 Route::get('/home', 'HomeController@index');
