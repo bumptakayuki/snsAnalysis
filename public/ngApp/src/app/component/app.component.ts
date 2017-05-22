@@ -1,10 +1,10 @@
 import {Component} from '@angular/core';
 import {OnInit} from '@angular/core';
-import {HttpService} from "./http.service";
+import {HttpService} from "../service/http.service";
 //import {DetailComponent} from './detail.component';
 import {ViewContainerRef, ViewChild} from '@angular/core';
 import {HostListener} from '@angular/core';
-import {Hero}    from './hero';
+import {Event}    from '../entity/event';
 import {empty} from "rxjs/Observer";
 import {isEmpty} from "rxjs/operator/isEmpty";
 
@@ -15,44 +15,26 @@ import {isEmpty} from "rxjs/operator/isEmpty";
 })
 export class AppComponent implements OnInit {
 
-    //ツアー明細ダイアログの参照取得
-    //@ViewChild("detailDialog") detailComponent: DetailComponent;
-
-    //選択したイベント情報(１件分）
-    eventObj;
-
     //選択したイベント情報
-    selectedData;
+    private selectedData;
 
     // イベント情報
-    events;
+    private events;
 
-    //ブックマーク
-    bookmarks;
+    private results_returned;
 
-    //PCとモバイルの判定
-    isMobile = false;
-
-    //モバイル判定画面幅
-    MOBILE_SCREEN_WIDTH = 768;
-
-    // 開閉制御
-    isCollapsed = false;
-
-    myModel = '';
-
-    isRunning = false;
-
-    delay = true;
-
-    results_returned;
-
-    results_start;
+    private results_start;
 
     public error: any;
 
+    public itemsPerPage: number = 3;
+
+    public currentPage: number = 1;
+
+    private _maxPage: number;
+
     // デフォルト値
-    places = [
+    private places = [
         '東京都', '神奈川県', '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県',
         '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
         '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県', '岐阜県',
@@ -63,16 +45,12 @@ export class AppComponent implements OnInit {
     ];
 
     // デフォルト値
-    model = new Hero(18, 'test', this.places[0], null, false, 0, 'test');
+    private model = new Event(18, 'test', this.places[0], null, false, 0, 'test');
 
     public existsFlg = true;
 
-    submitted = false;
-
-    // onSubmit() { this.submitted = true; }
-
-    newHero() {
-        this.model = new Hero(42, '', '', null, false, 0);
+    public newEvent() {
+        this.model = new Event(42, '', '', null, false, 0);
     }
 
     //modal 表示用
@@ -93,21 +71,14 @@ export class AppComponent implements OnInit {
      */
     public ngOnInit() {
 
-
-        // 保存したブックマークの取得
-        this.initBookmarks();
-
-        // PCとモバイルデバイスの判定
-        this.onScreenResize();
     }
-
 
     /**
      * イベント検索実行
      *
-     * @param index
+     * @param integer page
      */
-    onSubmit(page) {
+    public onSubmit(page) {
 
         this.getEvent(this.model, page);
 
@@ -124,15 +95,6 @@ export class AppComponent implements OnInit {
 
         this.model.spinner = true;
 
-        // this.httpService.getEventData(model, page).subscribe((result) => {
-        //         this.setEvent(result);
-        //         model.requestCount++;
-        //     },
-        //     (err)=>alert("通信エラー\n" + err),
-        //     ()=> {
-        //         this.model.spinner = false;
-        //     });
-
         this.httpService.getEventData(model, page)
             .then(response => {
                 this.setEvent(response);
@@ -140,7 +102,6 @@ export class AppComponent implements OnInit {
                 this.model.spinner = false;
             })
             .catch(error => this.error = error);
-
     }
 
     /**
@@ -173,65 +134,7 @@ export class AppComponent implements OnInit {
     }
 
 
-    /**
-     * 保存したブックマーク情報の読み取り
-     */
-    private initBookmarks() {
-        let storeData = localStorage.getItem("bookmarks");
-        if (storeData) {
-            this.bookmarks = JSON.parse(storeData);
-        } else {
-            this.bookmarks = {};
-        }
-    }
-
-    /**
-     * ブックマークボタンのクリック時
-     *
-     * @param tourID
-     * @param index
-     */
-    private onBookmarkClick(tourID, index) {
-        //登録が無い場合はブックマーク情報に追加
-        if (!this.isMarked(tourID)) {
-            //登録件数の確認
-            if (Object.keys(this.bookmarks).length === 10) {
-                return alert("Bookmarkは最大10件です");
-            }
-            //登録
-            this.bookmarks[tourID] = this.selectedData[index];
-        } else {
-            //登録済みの場合はブックマーク情報から削除
-            delete this.bookmarks[tourID];
-        }
-        //更新されたブックマーク情報の保存
-        localStorage.setItem(
-            "bookmarks", JSON.stringify(this.bookmarks));
-    }
-
-    /**
-     * ブックマーク登録済み確認
-     *
-     * @param tourID
-     */
-    private isMarked(tourID) {
-        return this.bookmarks[tourID];
-    }
-
-
-    /**
-     * resizeイベント
-     */
-    @HostListener('window:resize')
-    onScreenResize() {
-        this.isMobile = (innerWidth < this.MOBILE_SCREEN_WIDTH);
-    }
-
-    public itemsPerPage: number = 3;
-    public currentPage: number = 1;
-    private _maxPage: number;
-
-    range() {
+    public range() {
         if (this.events == null) {
             return;
         }
@@ -245,30 +148,30 @@ export class AppComponent implements OnInit {
         return ret;
     };
 
-    setPage(n) {
+    public setPage(n) {
         this.currentPage = n;
         this.onSubmit(this.currentPage);
     };
 
-    prevPage() {
+    public prevPage() {
         if (this.currentPage > 1) {
             --this.currentPage;
         }
         this.onSubmit(this.currentPage);
     };
 
-    nextPage() {
+    public nextPage() {
         if (this.currentPage < this._maxPage) {
             ++this.currentPage;
         }
         this.onSubmit(this.currentPage);
     };
 
-    prevPageDisabled() {
+    public prevPageDisabled() {
         return this.currentPage === 1 ? "disabled" : "";
     };
 
-    nextPageDisabled() {
+    public nextPageDisabled() {
         return this.currentPage === this._maxPage ? "disabled" : "";
     };
 
