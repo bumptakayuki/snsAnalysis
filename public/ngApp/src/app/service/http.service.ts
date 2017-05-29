@@ -2,7 +2,7 @@
 // 通信処理
 //ｰｰｰｰｰｰｰ-------------------
 import {Injectable} from "@angular/core";
-import {RequestOptions, URLSearchParams, Jsonp, Response, RequestOptionsArgs} from "@angular/http";
+import {RequestOptions, URLSearchParams, Response, RequestOptionsArgs} from "@angular/http";
 import {Observable} from  "rxjs/Observable";
 import "rxjs/add/operator/map";
 import {BuildQueryUtil} from '../util/build-query.util';
@@ -16,10 +16,9 @@ export class HttpService {
     //Web API URL
     // WEB_API_URL: string = "https://connpass.com/api/v1/event/";
 
-    private WEB_API_URL: string = "/snsAnalysis/public/events";
+    private WEB_API_URL: string = "/snsAnalysis/public/analysis";
 
     constructor(
-        private jsonp: Jsonp,
         private http: Http,
         private buildQuery: BuildQueryUtil
     ) {
@@ -36,13 +35,14 @@ export class HttpService {
         let data = this.requestGet(
             this.WEB_API_URL,
             {
-                page: page,
-                place: param.place,
-                ymd: param.ymd,
-                keyword: param.keyword,
-                start: param.start
+                // page: page,
+                // place: model.place,
+                // ymd: param.date,
+                keyword: 'test',
+                // start: model.start
             });
 
+        console.log(data);
         return data;
     }
 
@@ -51,14 +51,15 @@ export class HttpService {
 
         let param = model;
 
+
         if (model.date != null) {
             let date = model.date.formatted.replace(/-/, '');
             let date2 = date.replace(/-/, '');
             // param.set("ymd", date2);
-            model.date = date2;
+            param.date = date2;
         } else {
             // param.set("ymd", '');
-            model.date = '';
+            param.date = '';
         }
         return param;
     }
@@ -72,15 +73,16 @@ export class HttpService {
             .get(this.buildQuery.convert(url, params))
             .toPromise()
             .then(response => response.json())
-            .catch(this.handleError);
+            // .catch(this.handleError)
+            ;
     }
 
-    private handleError(error: any) {
-        let response = error.json();
-        if (response.error) {
-            alert(response.error);
-        }
-        return Promise.reject(error.message || error);
-    }
+    //  handleError(error: any) {
+    //     let response = error.json();
+    //     if (response.error) {
+    //         alert(response.error);
+    //     }
+    //     return Promise.reject(error.message || error);
+    // }
 }
 

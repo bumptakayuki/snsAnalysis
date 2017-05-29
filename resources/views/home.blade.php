@@ -33,6 +33,7 @@
 {{--<script src="{{ URL::asset('/ngApp/node_modules/systemjs/dist/system.src.js') }}"></script>--}}
 {{--<script src="{{ URL::asset('/ngApp/systemjs.config.js') }}"></script>--}}
 
+
 <script src="{{ URL::asset('/ngApp/dist/inline.bundle.js') }}"></script>
 <script src="{{ URL::asset('/ngApp/dist/vendor.bundle.js') }}"></script>
 

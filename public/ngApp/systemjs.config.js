@@ -25,6 +25,7 @@
       'rxjs':                       'npm:rxjs',
       'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',
       'ng2-datepicker':               'app-ui/node_modules/ng2-datepicker',
+        jQuery: 'http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {

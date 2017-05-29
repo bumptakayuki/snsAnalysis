@@ -2,25 +2,228 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34e83243-be78-4717-ad6d-65551f6fd126" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ngApp/src/php/api.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ngApp/src/php/phpQuery-onefile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ngApp/src/php/simple_html_dom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2c730550b629a72438e74687f29e09150655f1a7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/4302de414662abee5bf6a85e245be9b136c08bb0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/86fd9e62ddd1719f5db441fee25f4232825b1323" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/eed0651cb68d8cc1ccd09a724ce5ab7c8d310ebb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f8c913b2781f15175ca197513947de76e3ba42a4" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ngApp/src/app/app.component.css" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ngApp/src/app/app.component.html" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ngApp/src/app/app.component.js" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ngApp/src/app/app.component.ts" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ngApp/src/app/hero.js" afterPath="$PROJECT_DIR$/public/ngApp/src/app/entity/event.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ngApp/src/app/hero.ts" afterPath="$PROJECT_DIR$/public/ngApp/src/app/entity/event.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ngApp/src/app/http.service.js" afterPath="$PROJECT_DIR$/public/ngApp/src/app/service/http.service.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/ngApp/src/app/http.service.ts" afterPath="$PROJECT_DIR$/public/ngApp/src/app/service/http.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/build/TwistOAuth.phar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/electron/webpack.electron.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/electron/webpack.electron.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/electron/webpack.electron.prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/electron/webpack.renderer.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/electron/webpack.renderer.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/electron/webpack.renderer.prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/empty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/head-config.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/html-elements-plugin/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/modules/angular2-hmr-prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/resource-override.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/spec-bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/webpack.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/webpack.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/webpack.prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/config/webpack.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/app.translation.module.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/AdminLTE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/AdminLTE.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/alt/AdminLTE-bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/alt/AdminLTE-bootstrap-social.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/alt/AdminLTE-fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/alt/AdminLTE-fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/alt/AdminLTE-select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/alt/AdminLTE-select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/alt/AdminLTE-without-plugins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/alt/AdminLTE-without-plugins.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/all-skins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/all-skins.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-black-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-black-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-black.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-blue-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-blue-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-blue.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-green-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-green-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-green.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-purple-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-purple-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-purple.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-red-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-red-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-red.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-yellow-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-yellow-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/css/skins/skin-yellow.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/environment.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/global.state.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baAmChart/baAmChart.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baAmChart/baAmChart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baAmChart/baAmChart.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baAmChart/baAmChartTheme.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baAmChart/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baBackTop/baBackTop.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baBackTop/baBackTop.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baBackTop/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCard.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCardBlur.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCardBlur.directive.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCardBlur.directive.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCardBlurHelper.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCardBlurHelper.service.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCardBlurHelper.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/bgMetrics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/bgMetrics.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/bgMetrics.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baChartistChart/baChartistChart.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baChartistChart/baChartistChart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baChartistChart/baChartistChart.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baChartistChart/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCheckbox/baCheckbox.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCheckbox/baCheckbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCheckbox/baCheckbox.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCheckbox/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baContentTop/baContentTop.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baContentTop/baContentTop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baContentTop/baContentTop.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baContentTop/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baFileUploader/baFileUploader.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baFileUploader/baFileUploader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baFileUploader/baFileUploader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baFileUploader/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baFullCalendar/baFullCalendar.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baFullCalendar/baFullCalendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baFullCalendar/baFullCalendar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baFullCalendar/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMenu/baMenu.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMenu/baMenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMenu/baMenu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMenu/components/baMenuItem/baMenuItem.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMenu/components/baMenuItem/baMenuItem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMenu/components/baMenuItem/baMenuItem.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMenu/components/baMenuItem/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMenu/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMsgCenter/baMsgCenter.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMsgCenter/baMsgCenter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMsgCenter/baMsgCenter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMsgCenter/baMsgCenter.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMsgCenter/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMultiCheckbox/baMultiCheckbox.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMultiCheckbox/baMultiCheckbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMultiCheckbox/baMultiCheckbox.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baMultiCheckbox/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPageTop/baPageTop.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPageTop/baPageTop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPageTop/baPageTop.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPageTop/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPictureUploader/baPictureUploader.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPictureUploader/baPictureUploader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPictureUploader/baPictureUploader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPictureUploader/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baSidebar/baSidebar.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baSidebar/baSidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baSidebar/baSidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baSidebar/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/components/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baScrollPosition/baScrollPosition.directive.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baScrollPosition/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baSlimScroll/baSlimScroll.directive.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baSlimScroll/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baThemeRun/baThemeRun.directive.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baThemeRun/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/directives/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/initial.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/nga.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/nga.module.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/nga.module.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/pipes/baAppPicture/baAppPicture.pipe.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/pipes/baAppPicture/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/pipes/baKameleonPicture/baKameleonPicture.pipe.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/pipes/baKameleonPicture/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/pipes/baProfilePicture/baProfilePicture.pipe.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/pipes/baProfilePicture/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/pipes/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_auth.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_fonts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_form.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_ionicons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_preloader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_socicon.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_table.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_treeView.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/_typography.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/bootstrap-overrides/_card.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/bootstrap-overrides/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/bootstrap-overrides/_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/bootstrap-overrides/overrides.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/conf/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/conf/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/conf/colorSchemes/_blur.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/conf/colorSchemes/_mint.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/conf/colorSchemes/_ng2.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/sass/conf/conf.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/baImageLoader/baImageLoader.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/baImageLoader/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/baMenu/baMenu.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/baMenu/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/baThemePreloader/baThemePreloader.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/baThemePreloader/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/baThemeSpinner/baThemeSpinner.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/baThemeSpinner/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/services/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.config.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.config.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.configProvider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.configProvider.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.configProvider.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.constants.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.constants.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/validators/email.validator.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/validators/equalPasswords.validator.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/app/theme/validators/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/custom-typings.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/desktop.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/main.browser.aot.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/main.browser.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/meta/humans.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/meta/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/polyfills.browser.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/src/vendor.browser.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ngApp/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/snsAnalysis.iml" afterPath="$PROJECT_DIR$/.idea/snsAnalysis.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/angular-cli.json" afterPath="$PROJECT_DIR$/public/ngApp/angular-cli.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/e2e/app.e2e-spec.ts" afterPath="$PROJECT_DIR$/public/ngApp/e2e/app.e2e-spec.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/package.json" afterPath="$PROJECT_DIR$/public/ngApp/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/src/app/app.module.ts" afterPath="$PROJECT_DIR$/public/ngApp/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.html" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.ts" afterPath="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/src/app/service/http.service.ts" afterPath="$PROJECT_DIR$/public/ngApp/src/app/service/http.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/src/index.html" afterPath="$PROJECT_DIR$/public/ngApp/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/src/main.ts" afterPath="$PROJECT_DIR$/public/ngApp/src/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/src/tsconfig.json" afterPath="$PROJECT_DIR$/public/ngApp/src/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ngApp/systemjs.config.js" afterPath="$PROJECT_DIR$/public/ngApp/systemjs.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c2b705f6845ad7e3b116753d89156b2ae8aa4357.php" afterPath="$PROJECT_DIR$/storage/framework/views/c2b705f6845ad7e3b116753d89156b2ae8aa4357.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c42ea4cd343ccce5376eb517b4768826f14f8d58.php" afterPath="$PROJECT_DIR$/storage/framework/views/c42ea4cd343ccce5376eb517b4768826f14f8d58.php" />
     </list>
     <ignored path="learning-laravel-5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,109 +253,106 @@
     <favorites_list name="learning-laravel-5" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.765873">
+    <splitter split-orientation="horizontal" split-proportion="0.6018893">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/component/app.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1440">
-                  <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+                <state relative-caret-position="240">
+                  <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/app.module.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/component/app.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="151">
+                  <caret line="489" column="18" lean-forward="false" selection-start-line="489" selection-start-column="18" selection-end-line="489" selection-end-column="18" />
                   <folding>
-                    <element signature="e#0#40#0" expanded="true" />
-                    <element signature="e#186#244#0" expanded="true" />
+                    <marker date="1496077875000" expanded="true" signature="27735:29101" ph="..." />
+                    <marker date="1496077875000" expanded="true" signature="27839:29071" ph="..." />
+                    <marker date="1496077875000" expanded="true" signature="27890:29041" ph="..." />
+                    <marker date="1496077875000" expanded="true" signature="27987:29007" ph="..." />
+                    <marker date="1496077875000" expanded="true" signature="28040:28965" ph="..." />
+                    <marker date="1496077875000" expanded="true" signature="28113:28923" ph="..." />
+                    <marker date="1496077875000" expanded="true" signature="28255:28751" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="http.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/service/http.service.ts">
+          <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/index.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <state relative-caret-position="16">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="systemjs.config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/systemjs.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="274">
+                  <caret line="27" column="81" lean-forward="false" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/src/main.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="320">
+                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding>
-                    <element signature="e#66#107#0" expanded="true" />
+                    <element signature="e#0#24#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/storage/logs/.gitignore">
+          <file leaf-file-name="baSlimScroll.directive.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baSlimScroll/baSlimScroll.directive.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <state relative-caret-position="256">
+                  <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#0#81#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="angular-cli.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/angular-cli.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="384">
+                  <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/storage/framework/.gitignore">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="32">
-                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/storage/debugbar/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/storage/app/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="event.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/entity/event.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/entity/event.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="http.service.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/service/http.service.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.component.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/component/app.component.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="206">
+                  <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -161,16 +361,25 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/app.module.ts">
+        <leaf>
+          <file leaf-file-name="EventsController.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventsController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="592">
-                  <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+                <state relative-caret-position="33">
+                  <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
                   <folding>
-                    <element signature="e#0#58#0" expanded="true" />
-                    <element signature="e#464#521#0" expanded="true" />
+                    <element signature="e#424#462#0#PHP" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="http.service.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/service/http.service.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1103">
+                  <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -181,22 +390,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lines</find>
-      <find>phpdebugbar.addTa</find>
-      <find>phpdebugbar.addT</find>
       <find>phpdebugbar.add</find>
       <find>phpdebugbar.ad</find>
       <find>phpdebugbar.a</find>
       <find>callback</find>
       <find>this.model.spinner = false;</find>
       <find>phpdebugbar</find>
-      <find>styles.bundle.css</find>
       <find>newHero</find>
       <find>range</find>
+      <find>styles.bundle.css:7 Uncaught SyntaxError: Unexpected token {</find>
+      <find>styles.bundle.css</find>
+      <find>このサイトはイベント情報を検索できま</find>
+      <find>event-search-form</find>
+      <find>Alexander Pierce</find>
+      <find>loda</find>
+      <find>ng2-datepicker</find>
+      <find>amcharts3</find>
+      <find>types</find>
+      <find>chartist</find>
+      <find>types/jasmine</find>
+      <find>font-awesome-sass-loa</find>
+      <find>lo</find>
+      <find>loa</find>
+      <find>loader</find>
+      <find>bootstrap-loader/</find>
+      <find>bootstrap-loader</find>
+      <find>core-js</find>
+      <find>jquery.slimscroll.js</find>
+      <find>declare var</find>
+      <find>jquery</find>
+      <find>date</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/public</dir>
+      <dir>$PROJECT_DIR$/public/ngApp</dir>
+      <dir>$PROJECT_DIR$/public/ngApp/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -205,19 +434,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/articles/index.blade.php" />
-        <option value="$PROJECT_DIR$/composer.lock" />
-        <option value="$PROJECT_DIR$/vendor/illuminate/html/HtmlServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/CreateArticleRequest.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_02_09_161219_create_articles_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfNotAManager.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/partials/flash.blade.php" />
-        <option value="$PROJECT_DIR$/app/Tag.php" />
-        <option value="$PROJECT_DIR$/resources/views/articles/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Article.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_02_12_083956_create_tags_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
@@ -238,24 +454,37 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/public/ngApp/src/php/api.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/phpQuery-onefile.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/simple_html_dom.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/public/ngApp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" />
         <option value="$PROJECT_DIR$/public/ngApp/src/app/http.service.ts" />
-        <option value="$PROJECT_DIR$/public/ngApp/src/index.html" />
         <option value="$PROJECT_DIR$/public/ngApp/dist/styles.bundle.css" />
-        <option value="$PROJECT_DIR$/public/ngApp/dist/index.html" />
-        <option value="$PROJECT_DIR$/public/ngApp/src/main.ts" />
         <option value="$PROJECT_DIR$/public/ngApp/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.ts" />
-        <option value="$PROJECT_DIR$/public/ngApp/src/app/service/http.service.ts" />
         <option value="$PROJECT_DIR$/storage/framework/.gitignore" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/component/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.css" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/service/http.service.ts" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/theme/components/baChartistChart/baChartistChart.component.ts" />
+        <option value="$PROJECT_DIR$/public/ngApp/e2e/app.e2e-spec.ts" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/tsconfig.json" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/custom-typings.d.ts" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.ts" />
+        <option value="$PROJECT_DIR$/public/ngApp/package.json" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/index.html" />
+        <option value="$PROJECT_DIR$/public/ngApp/dist/index.html" />
+        <option value="$PROJECT_DIR$/public/ngApp/systemjs.config.js" />
+        <option value="$PROJECT_DIR$/public/ngApp/angular-cli.json" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/index.ts" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/main.ts" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baSlimScroll/baSlimScroll.directive.ts" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/public/ngApp/src/app/component/app.component.html" />
       </list>
     </option>
   </component>
@@ -386,11 +615,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,7 +629,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngApp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,11 +647,93 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app.module.ts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsAnalysis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,24 +746,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="styles.bu&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/dist/styles.bundle.css&#10;app.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/config/app.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/farmersStay/app/Http/routes.php&#10;router&#9;FILE&#9;file:///Applications/MAMP/htdocs/farmersStay/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;RedirectIfAuthenticated&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Middleware/RedirectIfAuthenticated.php&#10;Router&#9;null&#9;null&#10;Authenticate&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Middleware/Authenticate.php&#10;AdminAuthController&#9;null&#9;null&#10;auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/config/auth.php&#10;CreatesUserProviders&#9;null&#9;null&#10;uth.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/config/auth.php&#10;HomeController&#9;null&#9;null&#10;BelongsToMany&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php&#10;ArticleController&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Controllers/ArticlesController.php&#10;RouteServiceProvider&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/routes.php&#10;user&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/User.php&#10;RedirectIfNotAManager&#9;null&#9;null&#10;Kernel.&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Kernel.php&#10;kernel&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/symfony/http-kernel/Kernel.php&#10;auth.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/config/auth.php&#10;AuthController&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Controllers/Auth/AuthController.php&#10;AuthenticatesAndRegistersUsers&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;CreateArticleRequest&#9;null&#9;null&#10;HtmlServiceProvider&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/illuminate/html/HtmlServiceProvider.php&#10;HtmlServiceProvider.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/illuminate/html/HtmlServiceProvider.php" />
+    <property name="SearchEverywhereHistoryKey" value="baSlimScrol&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/src/app/theme/directives/baSlimScroll/baSlimScroll.directive.ts&#10;baSlimScro&#9;null&#9;null&#10;jquery.slimscroll.js&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/src/app/component/plugins/slimScroll/jquery.slimscroll.js&#10;lang.d.ts&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/node_modules/@angular/common/src/facade/lang.d.ts&#10;webpack.co&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/node_modules/@ngx-translate/core/webpack.config.js&#10;baChartistChart.component.ts&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/src/app/theme/components/baChartistChart/baChartistChart.component.ts&#10;baAmChart.component.ts&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/src/app/theme/components/baAmChart/baAmChart.component.ts&#10;theme.configProvider.ts&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/src/app/theme/theme.configProvider.ts&#10;baPageTop.component.ts&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/src/app/theme/components/baPageTop/baPageTop.component.ts&#10;heme.configProvider.t&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/src/app/theme/theme.configProvider.ts&#10;styles.bu&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/public/ngApp/dist/styles.bundle.css&#10;app.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/snsAnalysis/config/app.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/farmersStay/app/Http/routes.php&#10;router&#9;FILE&#9;file:///Applications/MAMP/htdocs/farmersStay/vendor/laravel/framework/src/Illuminate/Routing/Router.php&#10;RedirectIfAuthenticated&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Middleware/RedirectIfAuthenticated.php&#10;Router&#9;null&#9;null&#10;Authenticate&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Middleware/Authenticate.php&#10;AdminAuthController&#9;null&#9;null&#10;auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/config/auth.php&#10;CreatesUserProviders&#9;null&#9;null&#10;uth.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/config/auth.php&#10;HomeController&#9;null&#9;null&#10;BelongsToMany&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php&#10;ArticleController&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Controllers/ArticlesController.php&#10;RouteServiceProvider&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/routes.php&#10;user&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/User.php&#10;RedirectIfNotAManager&#9;null&#9;null&#10;Kernel.&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Kernel.php&#10;kernel&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/symfony/http-kernel/Kernel.php&#10;auth.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/config/auth.php&#10;AuthController&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/app/Http/Controllers/Auth/AuthController.php&#10;AuthenticatesAndRegistersUsers&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;CreateArticleRequest&#9;null&#9;null&#10;HtmlServiceProvider&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/illuminate/html/HtmlServiceProvider.php&#10;HtmlServiceProvider.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/learning-laravel-5/vendor/illuminate/html/HtmlServiceProvider.php" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/public/ngApp/node_modules/tslint" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/ngApp/src/app" />
+      <recent name="$PROJECT_DIR$/public/ngApp" />
+      <recent name="$PROJECT_DIR$/public/ngApp/src" />
+      <recent name="$PROJECT_DIR$/public/ngApp/src/app/component" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/ngApp/src" />
+      <recent name="$PROJECT_DIR$/public/ngApp" />
+      <recent name="$PROJECT_DIR$/public/ngApp/src/app" />
       <recent name="$PROJECT_DIR$/public/ngApp/src/app/component" />
       <recent name="$PROJECT_DIR$/public/ngApp/src/app/service" />
-      <recent name="$PROJECT_DIR$/public/ngApp/src/app/entity" />
-      <recent name="$PROJECT_DIR$/public/ngApp/src/app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/ngApp/dist" />
-      <recent name="$PROJECT_DIR$/public/ngApp/src/app" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
-      <recent name="$PROJECT_DIR$/public/ngApp" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -553,15 +869,21 @@
       <workItem from="1495276375959" duration="450000" />
       <workItem from="1495277403986" duration="1891000" />
       <workItem from="1495362585370" duration="14339000" />
-      <workItem from="1495464751221" duration="47000" />
+      <workItem from="1495464751221" duration="4714000" />
+      <workItem from="1495534642307" duration="1216000" />
+      <workItem from="1495613240634" duration="141000" />
+      <workItem from="1495959632189" duration="2850000" />
+      <workItem from="1495969159907" duration="2247000" />
+      <workItem from="1495972171351" duration="24214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18613000" />
+    <option name="totallyTimeSpent" value="53948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -571,8 +893,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1970181" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21086262" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.351626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -581,7 +904,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35365853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -591,15 +913,6 @@
       <list>
         <option value="$PROJECT_DIR$/public/ngApp/src/app/app.module.js" />
         <option value="$PROJECT_DIR$/public/ngApp/src/environments/environment.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/karma/config.tpl.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/ng2-datepicker/index.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/ng2-datepicker/ng2-datepicker.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/ng2-datepicker/src/components/ng2-datepicker.component.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/ng2-slimscroll/ng2-slimscroll.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/ng2-slimscroll/index.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/ng2-slimscroll/src/directives/slimscroll.directive.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/reflect-metadata/Reflect.js" />
-        <option value="$PROJECT_DIR$/public/ngApp/node_modules/reflect-metadata/Reflect.js.map" />
       </list>
     </option>
   </component>
@@ -615,350 +928,447 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="77" column="35" lean-forward="false" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Tag.php">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/ngx-uploader/ngx-uploader.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin.php">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/ng-spin-kit/app/spinners.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/ng2-bootstrap/ng2-bootstrap.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/components/baPageTop/baPageTop.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/components/baAmChart/baAmChart.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/@ngx-translate/core/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ngApp/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-614">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Article.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/packageJson/packageJsonSchema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="192" column="8" lean-forward="false" selection-start-line="192" selection-start-column="8" selection-end-line="192" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/main.browser.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/phpQuery-onefile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="4391" column="15" lean-forward="false" selection-start-line="4391" selection-start-column="15" selection-end-line="4391" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/php/simple_html_dom.php" />
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/php/phpQuery-onefile.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/simple_html_dom.php" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/ViewCollector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/@angular/http/src/http.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/php/api.php" />
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="128">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <element signature="e#464#521#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/e2e/app.po.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminHomeController.php">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/e2e/app.e2e-spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/@angular/common/src/facade/lang.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="176">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="4832" column="12" lean-forward="false" selection-start-line="4832" selection-start-column="12" selection-end-line="4832" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="76" column="39" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        <state relative-caret-position="33">
+          <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+          <folding>
+            <element signature="e#424#462#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/css/creative.css">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/vendor.browser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/config/webpack.dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/bootstrap/less/normalize.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/js/creative.min.js">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/styles.css">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/e2e/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/vendor/bootstrap/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="512">
+          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/test.ts">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/desktop.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/dist/styles.bundle.css">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/polyfills.browser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#190#218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/jquery-slimscroll/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="87" column="11" lean-forward="false" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/node_modules/jquery-slimscroll/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/config/webpack.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="91" column="9" lean-forward="false" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/theme.constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/nga.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/theme.config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/component/plugins/slimScroll/jquery.slimscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3810">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/theme.configProvider.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1264">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/global.state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/custom-typings.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ngApp/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/template.html" />
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/polyfills.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/dist/styles.bundle.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/main.js" />
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="382">
+          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/component/app.component.css">
+    <entry file="file://$PROJECT_DIR$/public/ngApp/systemjs.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="274">
+          <caret line="27" column="81" lean-forward="false" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/dist/main.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="2643" column="4" lean-forward="false" selection-start-line="2643" selection-start-column="4" selection-end-line="2643" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/directives/baSlimScroll/baSlimScroll.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/component/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/components/baChartistChart/baChartistChart.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/theme/components/baCard/baCard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/component/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="99" column="17" lean-forward="false" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/dist/main.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="380" column="27" lean-forward="false" selection-start-line="380" selection-start-column="27" selection-end-line="380" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/entity/event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/service/http.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/entity/event.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/component/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="151">
+          <caret line="489" column="18" lean-forward="false" selection-start-line="489" selection-start-column="18" selection-end-line="489" selection-end-column="18" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#186#244#0" expanded="true" />
+            <marker date="1496077875000" expanded="true" signature="27735:29101" ph="..." />
+            <marker date="1496077875000" expanded="true" signature="27839:29071" ph="..." />
+            <marker date="1496077875000" expanded="true" signature="27890:29041" ph="..." />
+            <marker date="1496077875000" expanded="true" signature="27987:29007" ph="..." />
+            <marker date="1496077875000" expanded="true" signature="28040:28965" ph="..." />
+            <marker date="1496077875000" expanded="true" signature="28113:28923" ph="..." />
+            <marker date="1496077875000" expanded="true" signature="28255:28751" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ngApp/src/app/service/http.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/debugbar/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

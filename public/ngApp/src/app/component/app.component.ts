@@ -11,7 +11,18 @@ import {isEmpty} from "rxjs/operator/isEmpty";
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css']
+    styleUrls: [
+        '../../vendor/bootstrap/css/bootstrap.min.css',
+        './app.component.css',
+        './css/AdminLTE.css',
+        // './plugins/iCheck/flat/blue.css',
+        // './css/skins/all-skins.min.css',
+        // './plugins/morris/morris.css',
+        // // './plugins/jvectormap/jquery-jvectormap-1.2.2.css',
+        // './plugins/datepicker/datepicker3.css',
+        // './plugins/daterangepicker/daterangepicker.css',
+        // './plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css'
+    ]
 })
 export class AppComponent implements OnInit {
 

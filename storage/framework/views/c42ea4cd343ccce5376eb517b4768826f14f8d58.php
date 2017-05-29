@@ -31,6 +31,7 @@
 <?php /*<script src="<?php echo e(URL::asset('/ngApp/node_modules/systemjs/dist/system.src.js')); ?>"></script>*/ ?>
 <?php /*<script src="<?php echo e(URL::asset('/ngApp/systemjs.config.js')); ?>"></script>*/ ?>
 
+
 <script src="<?php echo e(URL::asset('/ngApp/dist/inline.bundle.js')); ?>"></script>
 <script src="<?php echo e(URL::asset('/ngApp/dist/vendor.bundle.js')); ?>"></script>
 

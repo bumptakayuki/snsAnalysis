@@ -32,6 +32,8 @@ Route::resource('articles', 'ArticlesController');
 
 Route::resource('events', 'EventsController');
 
+Route::get('/analysis', 'EventsController@analysis');
+
 
 //Route::auth();
 
